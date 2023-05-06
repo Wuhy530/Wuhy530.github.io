@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="PuzzleTest.js"></script>
+    <title>PuzzleTest</title>
+    <style type="text/css">
+      body{
+        background-image:url("background.jpg")
+      }
+      h1{
+        text-align:center;
+        color:#6A5ACD;
+      }
+      .info{
+        text-align:center;
+        color:#4682B4;
+      }
+      #image{
+        border:2px solid #000;
+      }
+      .button{
+        appearance: auto;
+        writing-mode: horizontal-tb !important;
+        font-size:20px;
+        background-color:	#4169E1;
+        border-color:#4169E1;
+        color:white;
+        padding:10px;
+        text-align:center;
+        margin:30px;
+        align:center;
+      }
+
+    </style>
+  </head>
+  <body>
+    <br>
+    <br>
+    <h1 style="font-size:250%;">Guess which?</h1>
+    <p class="info">
+      <b>There are one photo and two different songs here.</b>
+       <br>
+     <b>The member in this photo have performed one of them.</b>
+     <br>
+     <b>Can you guess which song it is?</b>
+     <br>
+     <b>If you don't have a clue, you can check the <u>Infor Card</u> to get some keywords!</b>
+     <br>
+      </p>
+      <br>
+
+      <ul id="puzzleOne" style="display:block">
+        <p style="text-align: center">
+      <img id="image" src="hwc.jpg" width="300px">
+      </p>
+      <br>
+      <div style="text-align:center">
+        <audio controls style="background:none;width:300px;height:30px;">
+          <source src="say my name.mp3" type="audio/mpeg">
+            </audio>
+            <audio controls style="background:none;width:300px;height:30px;">
+              <source src="switch.mp3" type="audio/mpeg">
+                </audio>
+      </div>
+      <br>
+      <div style="text-align:center;" class="ans">
+        <button onclick="enterAnswer1()" class="button">Your answer</button>
+        <button onclick="infoCard1()" class="button">Info Card</button>
+        <button onclick="correctAnswer1()" class="button">Correct answer</button>
+        </div>
+        </ul>
+
+        <ul id="puzzleTwo" style="display:none">
+          <p style="text-align: center">
+        <img id="image" src="jdx.jpg" width="300px">
+        </p>
+        <br>
+        <div style="text-align:center">
+          <audio controls style="background:none;width:300px;height:30px;">
+            <source src="jelly pop.mp3" type="audio/mpeg">
+              </audio>
+              <audio controls style="background:none;width:300px;height:30px;">
+                <source src="hot summer.mp3" type="audio/mpeg">
+                  </audio>
+        </div>
+        <br>
+        <div style="text-align:center;" class="ans">
+          <button onclick="enterAnswer2()" class="button">Your answer</button>
+          <button onclick="infoCard2()" class="button">Info Card</button>
+          <button onclick="correctAnswer2()" class="button">Correct answer</button>
+          </div>
+          </ul>
+
+          <ul id="puzzleThree" style="display:none">
+            <p style="text-align: center">
+          <img id="image" src="ricky.jpg" width="300px">
+          </p>
+          <br>
+          <div style="text-align:center">
+            <audio controls style="background:none;width:300px;height:30px;">
+              <source src="love killa.mp3" type="audio/mpeg">
+                </audio>
+                <audio controls style="background:none;width:300px;height:30px;">
+                  <source src="back door.mp3" type="audio/mpeg">
+                    </audio>
+          </div>
+          <br>
+          <div style="text-align:center;" class="ans">
+            <button onclick="enterAnswer3()" class="button">Your answer</button>
+            <button onclick="infoCard3()" class="button">Info Card</button>
+            <button onclick="correctAnswer3()" class="button">Correct answer</button>
+            </div>
+            </ul>
+
+            <ul id="puzzleFour" style="display:none">
+              <p style="text-align: center">
+            <img id="image" src="zh.jpg" width="500px">
+            </p>
+            <br>
+            <div style="text-align:center">
+              <audio controls style="background:none;width:300px;height:30px;">
+                <source src="over me.mp3" type="audio/mpeg">
+                  </audio>
+                  <audio controls style="background:none;width:300px;height:30px;">
+                    <source src="en garde.mp3" type="audio/mpeg">
+                      </audio>
+            </div>
+            <br>
+            <div style="text-align:center;" class="ans">
+              <button onclick="enterAnswer4()" class="button">Your answer</button>
+              <button onclick="infoCard4()" class="button">Info Card</button>
+              <button onclick="correctAnswer4()" class="button">Correct answer</button>
+              </div>
+              <br>
+              <div class="ans">
+                <button onclick="getScore()">Get Your Score</button>
+              </div>
+              </ul>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-
+    ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
