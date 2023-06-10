@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="own.js"></script>
+    <title>WORK</title>
+    <style type="text/css">
+    .navbar {
+        font-family: 'Koulen', cursive;
+        }
+
+        .carousel-item{
+          width:900px;
+          left:200px;
+          border:4px solid #000;
+        }
+        #info{
+          font-family: 'Koulen', cursive;
+        }
+        h1{
+          font-family: 'Koulen', cursive;
+          color:white;
+        }
+        .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:2rem;
+}
+
+#profile1{
+    /* position: relative; */
+    width: 300px;height: 350px;
+    background:url("img/燃烧.jpg");
+    background-size: cover;
+    cursor: pointer;
+    border: 12px;
+    border-top-right-radius: 35px !important;
+    border-radius: 6px;
+}
+#profile2{
+    /* position: relative; */
+    width: 300px;height: 350px;
+    background:url("img/寄生虫.jpg");
+    background-size: cover;
+    cursor: pointer;
+    border: 12px;
+    border-top-right-radius: 35px !important;
+    border-radius: 6px
+}
+#profile3{
+    /* position: relative;s */
+    width: 300px;height: 350px;
+    background:url("img/狙击手.jpg");
+    background-size: cover;
+    cursor: pointer;
+    border: 12px;
+    border-top-right-radius: 35px !important;
+    border-radius: 6px
+}
+.overlay{
+    width: 100%;height: 100%;
+    background:#000;
+    border-radius: 12px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 1s;
+    border-top-right-radius: 35px !important;
+    border-radius: 6px
+}
+
+.profile:hover .overlay{opacity: 0.75}
+
+.overlay .about{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top:40%;
+    color: #F5FFFA;
+    flex: column}
+
+    .btn{
+      appearance: auto;
+      writing-mode: horizontal-tb !important;
+      font-size:20px;
+      background-color:	#708090;
+      color:#87CEEB;
+      padding:10px;
+      text-align:center;
+      border-color:#87CEEB;
+      margin:3px;
+      align:center;
+    }
+
+    .btn:hover{
+      color:white;
+      background-color:#87CEEB;
+    }
+
+    h4{
+      color:white;
+      font-family: 'Koulen', cursive;
+      text-align:center;
+    }
+    h1:hover{
+      color:#87CEEB;
+    }
+    h4:hover{
+      color:#87CEEB;
+    }
+    #image{
+      border:2px solid #000;
+    }
+    h6{
+      color:#4682B4;
+    }
+    h6:hover{
+      color:#00008B;
+    }
+
+        </style>
+  </head>
+  <body style="background-color:#708090;">
+<!-- 导航 -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary py-1" id="bar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="first.html">
+          <img src="img/头像.png" alt="face" width="70" height="70">
+          THE SPIRITUAL WORLD OF WUHAOYU
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="active">
+              <a class="nav-link" aria-current="page" href="first.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  " aria-current="page" href="second.html">WORK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="third.html">LIKE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="fourth.html">LAST</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="rounded text-center">
+      <h1 class="display-6" style="margin-top:10rem ;font-family:FangSong; font-weight:bolder;">Presentation</h1>
+    </div>
+  <!-- 轮播图 -->
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+  <div class="carousel-item active">
+  <img src="img/学习.jpg" class="d-block w-100" alt="学习">
+  </div>
+  <div class="carousel-item">
+  <img src="img/吉县苹果.jpg" class="d-block w-100" alt="吉县苹果">
+  </div>
+  <div class="carousel-item">
+  <img src="img/表情包.jpg" class="d-block w-100" alt="表情包">
+  </div>
+  <div class="carousel-item">
+  <img src="img/启达力.jpg" class="d-block w-100" alt="启达力">
+  </div>
+  <div class="carousel-item">
+  <img src="img/追星研究.jpg" class="d-block w-100" alt="追星研究">
+  </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+  <!-- 介绍页 -->
+  <div class="repreDetails container reveal">
+  <div class="rounded text-center">
+    <h1 class="display-6" style="margin-top:10rem ;font-family:FangSong; font-weight:bolder;">Film Review</h1>
+    <center><hr class="line"></center>
+  </div>
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-4 d-block">
+            <div class="wrapper zoom">
+                <div class="profile" id="profile1">
+                    <div class="overlay">
+                        <div class="about d-flex flex-column">
+                            <h2>燃烧女子的肖像</h2>
+                            <span class="p-3">“影片中的男性很少，但男性所象征的命运与桎梏却无处不在。女性想要自由地表达真实情感，却只能在燃烧的裙摆中久久停驻，在无奈的回首中久久注视。”</span>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 d-block">
+            <div class="wrapper zoom">
+                <div class="profile" id="profile2">
+                    <div class="overlay">
+                        <div class="about d-flex flex-column">
+                            <h2>寄生虫</h2>
+                            <span class="p-3">“现实题材电影通常由真实事件和合理虚构组成，将小问题放大为引起整个社会关注的大话题。该片用一种近乎荒诞的叙事揭露社会的真实面貌，一层一层地拨开希望下的人性沉沦。”</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 d-block">
+            <div class="wrapper zoom">
+                <div class="profile" id="profile3">
+                    <div class="overlay">
+                        <div class="about d-flex flex-column">
+                            <h2>狙击手</h2>
+                            <span class="p-3">“这个故事很小很普通，发生在一个毫不起眼的角落，只留下一个个普通的名字…
+                            张艺谋用‘真’字美学，聚焦狙击手这一特殊兵种，将有限的时空拉长，戏剧张力放大，还原了一代‘狙神’的热血丹心。”</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- 照片墙 -->
+<div class="rounded text-center">
+  <h1 class="display-6" style="margin-top:10rem ;font-family:FangSong; font-weight:bolder;">Photo Collection</h1>
+  <center><hr class="line"></center>
+</div>
+<div class="container-fluid text-center">
+        <button type="button" class="btn" onclick="window.location.reload()">全选</button>
+        <button type="button" class="btn" onclick="scene()">景</button>
+        <button type="button" class="btn" onclick="food()">食</button>
+        <div class="btn-group">
+          <button type="button" class="btn"  onclick="live()">
+            生
+          </button>
+          <button type = "button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="visually-hidden">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" onclick="person()">人</a></li>
+            <li><a class="dropdown-item" onclick="unperson()">除了人</a></li>
+          </ul>
+      </div>
+</div>
+<br>
+<div class="container w3-container w3-center w3-animate-bottom" id="unperson">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 mb-4 zoom">
+      <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/unperson横1.jpg" alt="...">
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4 zoom">
+      <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/unperson横2.jpg" alt="...">
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4 zoom">
+      <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/unperson横3.jpg" alt="...">
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4 zoom">
+      <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/unperson竖1.jpg" alt="...">
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4 zoom">
+      <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/unperson竖2.jpg" alt="...">
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4 zoom">
+      <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/unperson竖3.jpg" alt="...">
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4 zoom">
+      <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/unperson竖4.jpg" alt="...">
+  </div>
+  <div class="col-lg-4 col-md-6 mb-4 zoom">
+    <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/unperson竖5.jpg" alt="...">
+</div>
+<div class="col-lg-4 col-md-6 mb-4 zoom">
+  <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/unperson竖6.jpg" alt="...">
+</div>
+    </div>
+  </div>
+
+  <div class="container w3-container w3-center w3-animate-bottom " id="scene">
+    <div class="row  w3-container w3-center w3-animate-bottom">
+      <div class="col-lg-4 col-md-6 mb-4 zoom">
+          <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/scene横1.jpg" alt="...">
+        </div>
+    <div class="col-lg-4 col-md-6 mb-4 zoom">
+        <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/scene横2.jpg" alt="...">
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4 zoom">
+          <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/scene横3.jpg" alt="...">
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 zoom">
+            <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/scene横4.jpg" alt="...">
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 zoom">
+              <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/scene横5.jpg" alt="...">
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 zoom">
+                <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/scene横6.jpg" alt="...">
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 zoom">
+                  <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/scene横7.jpg" alt="...">
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 zoom">
+                    <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/scene横8.jpg" alt="...">
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4 zoom">
+                      <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/scene横9.jpg" alt="...">
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 zoom">
+                        <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/scene竖1.jpg" alt="...">
+                      </div>
+                      <div class="col-lg-4 col-md-6 mb-4 zoom">
+                          <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/scene竖2.jpg" alt="...">
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4 zoom">
+                            <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/scene竖3.jpg" alt="...">
+                          </div>
+</div>
+</div>
+
+    <div class="container w3-container w3-center w3-animate-bottom" id="person">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4 zoom">
+              <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/person竖1.jpg" alt="...">
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 zoom">
+            <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/person竖2.jpg" alt="...">
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 zoom">
+            <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/person竖3.jpg" alt="...">
+          </div>
+          </div>
+          </div>
+
+        <div class="container w3-container w3-center w3-animate-bottom " id="food">
+          <div class="row  w3-container w3-center w3-animate-bottom">
+            <div class="col-lg-4 col-md-6 mb-4 zoom">
+          <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/food横1.jpg" alt="...">
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4 zoom">
+    <img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/food横2.jpg" alt="...">
+</div>
+<div class="col-lg-4 col-md-6 mb-4 zoom">
+<img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/food横3.jpg" alt="...">
+</div>
+<div class="col-lg-4 col-md-6 mb-4 zoom">
+<img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/food横4.jpg" alt="...">
+</div>
+<div class="col-lg-4 col-md-6 mb-4 zoom">
+<img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/food横5.jpg" alt="...">
+</div>
+<div class="col-lg-4 col-md-6 mb-4 zoom">
+<img class="img-fluid w-100 mb-3 img-thumbnail shadow rounded-0" src="img/food横6.jpg" alt="...">
+</div>
+</div>
+</div>
+        <h4>Best wishes for you</h4>
+        <p style="text-align: center">
+      <img id="image" src="img/结尾海报.jpg" width="600px">
+      </p>
+<!-- report -->
+<div class="rounded text-center">
+  <h1 class="display-6" style="margin-top:10rem ;font-family:FangSong; font-weight:bolder;">Investigation & Practice</h1>
+  <center><hr class="line"></center>
+</div>
+
+<div class="container text-center">
+<div class="row">
+  <div class="col-sm-4 mb-3 mb-sm-0">
+    <div class="card" style="width: 20rem;">
+      <img src="img/report1.jpg" class="card-img-top" alt="">
+      <div class="card-body">
+        <h6 class="card-title">新冠疫情期间大学生居家锻炼行为研究</h6>
+        <p class="card-text">本次研究以新冠肺炎疫情的肆虐以及居家锻炼的兴起为背景，针对大学生重点了解并分析他们居家锻炼的习惯、方式以及带来的影响，借此进一步了解到他们居家锻炼的具体情况和态度。</p>
+        <button onclick="trytoanswer1()" class="btn">For example</button>
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card" style="width: 20rem;">
+        <img src="img/report2.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h6 class="card-title">00后大学生兴趣爱好研究</h6>
+          <p class="card-text">本次研究以持续三年的疫情占据了00后大学生大半校园生活，他们的兴趣爱好也发生了很大变化为背景，了解他们对各种室内室外的兴趣爱好的偏好程度，并对IP、虚拟、元宇宙作了重点追问。</p>
+          <button onclick="trytoanswer2()" class="btn">For example</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card" style="width: 20rem;">
+        <img src="img/report3.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h6 class="card-title">“由发源到发展”苹果之乡的数字营销路</h6>
+          <p class="card-text">本团队深入吉县各乡镇实地考察苹果种植到交易的各个链路及农副产品、农旅融合、电商零售方面的发展，力求为苹果之乡吉县的营销发展之路提供可靠、可依、可创新的营销方案。</p>
+    <button onclick="trytoanswer3()" class="btn">For example</button>
+        </div>
+      </div>
+    </div>
+        </div>
+        </div>
+<br>
+<br>
+<h6 class="text-center p-3 text-white ">  © 2023.5.30 wu haoyu</h6>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-
+  ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+  </body>
+</html>
